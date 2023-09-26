@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <style>
+    table,th,td{
+      border:1px solid black;
+      border-collapse:collapse;
+    }
+    </style>
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to my website showing a collection of DevOps terms and their brief description. </p>
+  
+    <table style="width: 100%">
+          <tr>
+            <th>ID#</th>
+            <th>Term</th>
+            <th>Description</th>
+            <th>References</th>
+          <tr>
+          <tr>
+            <td>1
+            <td>Continuous Integration 
+            <td>Continuous Integration is a software development practice that involves merging code changes into a shared repository to detect and address integration issues. This practice is typically performed daily. Automated tools are used to assist with each integration and to identify any errors that may be present.
+            <td>Martin Fowler. ( 01 May 2006). Continuous Integration. Martinfowler. https://martinfowler.com/articles/continuousIntegration.html<br/><br/>
+              Spiwoks, R. et al. (2023) ‘Continuous Integration for the Software and the Firmware of the New ATLAS Muon-Central- Trigger-Processor Interface (MUCTPI)’, IEEE Transactions on Nuclear Science, Nuclear Science, IEEE Transactions on, IEEE Trans. Nucl. Sci, 70(6), pp. 1069–1074. doi:10.1109/TNS.2022.3224766.
+          </tr>
+          <tr>
+            <td>2
+            <td>Continuous Delivery
+            <td>Continuous Delivery refers to the automated process of building, testing, and deploying software. It allows for the timely release of high-quality software to various runtime infrastructures.
+            <td>Isaac Sacolick. (APR 15, 2022). What is CI/CD? Continuous integration and continuous delivery explained. Infoworld. https://www.infoworld.com/article/3271126/what-is-cicd-continuous-integration-and-continuous-delivery-explained.html<br/><br/>
+              Pastrana Pardo, M. A., Erazo, H. A. O., & Lozada, C. A. C. (2022). Teaching Guide for Beginnings in DevOps and Continuous Delivery in AWS Focused on the Society 5.0 Skillset. IEEE Revista Iberoamericana de Tecnologias Del Aprendizaje, Tecnologias Del Aprendizaje, IEEE Revista Iberoamericana de, IEEE R. Iberoamericana Tecnologias Aprendizaje, 17(4), 358–370. https://doi.org/10.1109/RITA.2022.3217172
+          </tr>
+          <tr>
+            <td>3
+            <td>Containerization
+            <td>Containerization is the process of packaging applications and their dependencies into portable, isolated containers. It allows application runs across different environments and enhances the efficiency and collaboration between development and operations teams. Using containerization offers several advantages such as portability, heightened security, and better utilization of resources.
+            <td>Simplilearn. (Dec 20, 2022). What is Containerization?. Simplilearn. https://www.simplilearn.com/what-is-containerization-article<br/><br/>
+              Arrichiello, A. author. (2022). Podman for DevOps : containerization reimagined with Podman and its companion tools / Alessandro Arrichiello, Gianni Salinetti. Packt Publishing. 
+          </tr>
+          <tr>
+            <td>4
+            <td>Microservices
+            <td>Microservices is a software architecture approach that involves breaking down complex tasks into smaller, independent, and specific tasks. Microservices offer greater flexibility, scalability, and easier management.
+            <td>Namit Tanasseri, & Rahul Rai. (2017). Microservices with Azure : Architect Enterprise-grade, Microservice-based Solutions Using Microsoft Azure Service Fabric. Packt Publishing. 
+          </tr>
+          <tr>
+            <td>5
+            <td>Version Control
+            <td>Version control is the process of managing modifications made to source code and documents.
+              It helps the developer team roll back to previous versions, making project management and monitoring more efficient.
+              
+            <td>Adelina Karpenkova. (August 12, 2022). Understanding Version Control: A Guide for DevOps. Scribehow. https://scribehow.com/library/what-is-version-control
+          </tr>
+          <tr>
+            <td>6
+            <td>Automation
+            <td>Automation refers to the use of automated tools and scripts to replace humans in performing repetitive tasks. This approach is an excellent means of improving efficiency while minimizing human involvement.
+            <td>Editorial Staff. ( August 12, 2022). IT Automation Explained. Advsyscon. https://www.advsyscon.com/blog/it-automation-explained/
+          </tr>
+          <tr>
+            <td>7
+            <td>Infrastructure as Code (IaC)
+            <td>The practice of managing and provisioning infrastructure resources using programmable scripts and tools. This practice also includes version control and helps to ensure stable software delivery.
+            <td>Souza, I. S. e., Franco, D. P., & Silva, J. P. S. G. (2023). Infrastructure as Code as a Foundational Technique for Increasing the DevOps Maturity Level: Two Case Studies. IEEE Software, Software, IEEE, IEEE Softw, 40(1), 63–68. https://doi.org/10.1109/MS.2022.3213228
+          </tr>
+          <tr>
+            <td>8
+            <td>Configuration Management
+            <td>Configuration Management is the process of managing and maintaining the configuration of software, systems, and infrastructure in a methodical and automated way. This involves utilizing version-controlled scripts and tools, and three key elements known as Configuration Identification, Configuration Control, and Configuration Audit.
+            <td>Shreya Bose. (January 2, 2023). What is DevOps Configuration Management?. Browserstack. https://www.browserstack.com/guide/configuration-management-in-devops
+          </tr>
+          <tr>
+            <td>9
+            <td>Deployment Pipeline
+            <td>A series of automated steps that packages, tests, and deploys software changes from development to production environments. The aim of the deployment pipeline is to provide the customer with a quick and easy delivery process.
+            <td>Andy Corrigan. (July 20, 2022). Deployment pipelines. Octopus. https://octopus.com/devops/continuous-delivery/what-is-a-deployment-pipeline/
+          </tr>
+          <tr>
+            <td>10
+            <td>Monitoring and Logging
+            <td>The practice of capturing and storing the data of system and application performance as well as 
+              events and activities. Implementing monitoring and logging practices allows the maintenance team to receive system feedback and insights without delay. This improves the system's reliability and performance, leading to a better user experience overall.
+              
+            <td>Jason McGee. ( Jun 14, 2023). DevOps: Monitoring and Logging Explained. Medium. https://medium.com/@mcgeejasond/devops-monitoring-and-logging-explained-939c3b5e17c4
+          </tr>
+          </tr>
+          <td>11
+                    <td> Cloud computing
+                    <td> Cloud computing is a service provided by various cloud service providers, which allows users to access computing resources without owning them. This method is efficient in distributing computing resources. The user rents these resources from the provider and is charged based on the rental time.
+        
+                      
+                    <td> JAKE FRANKENFIELD.(05 April, 2023). Investopedia: What is Cloud Computing? Pros and Cons of Different Types of Services. [Website]. Available:  https://www.investopedia.com/terms/c/cloud-computing.asp
+        
+                  </tr>
+           </tr>
+           <td>12
+                    <td> Container 
+                    <td> A container is a software solution that separates the application and its resources from the infrastructure it runs on. It is an efficient way to migrate applications from one operating system to another operating system.                              
+                    <td> Avi Meir. (14 May, 2023). Ridge:What Are Containers And How Do They Work?. [Website]. Available: https://www.ridge.co/blog/what-are-containers/#what-are-the-benefits-of-containerization<br/><br/>
+                         Alexander S. Gillis.(n.d.) Techtarget:containers (container-based virtualization or containerization). [Website]. Available: https://www.techtarget.com/searchitoperations/definition/container-containerization-or-container-based-virtualization        
+                  </tr>
+          </tr>
+          <td>13
+                    <td>Docker 
+        
+                    <td> Docker is an open-source platform based on containers. Docker is a platform that is open-source and based on containers. By taking advantage of the lightweight nature of containers, developers can easily deploy across different platforms and perform upgrades quickly.
+                      
+                    <td> Scott Carey. (2 AUG, 2021 ). Infoworld: What is Docker? The spark for the container revolution
+        What is Docker? The spark for the container revolution. [Website]. Available: https://www.infoworld.com/article/3204171/what-is-docker-the-spark-for-the-container-revolution.html
+        
+        
+          </tr>
+          </tr>
+          <td>14
+          <td> Lead time for changes
+           <td> The lead time for changes is a metric that measures the duration between the time when the code is committed and the time it is effectively implemented in production. It shows how fast and efficient software development processes are.
+           <td> Alex.(6 July,2022). Waydev: What does Lead Time for Changes tell you about the efficiency of your organization’s development process?. [Website]. Available: https://waydev.co/devops-lead-time/
+
+            </tr>
+           <td>15
+           <td> IaaS
+           <td> IaaS(Infrastructure-as-a-Service ) is a service model that enables IT infrastructure to be standardized and provided as a service through a network. Users are charged based on the actual usage of resources.
+           <td> Amit Samsukha.(1 October , 2022). Emizentech: What Is A Infrastructure As A Service (IaaS)?. [Website]. Available: https://www.emizentech.com/blog/infrastructure-as-a-service-iaas.html
+        
+           </tr>
+          </tr>
+         <td>16
+         <td> Instance 
+         <td> In the field of DevOps, an instance refers to the running of a single component. The utilization of instances in processes like continuous integration aids in decreasing change failure rate.
+         <td> Nikita S.(21 Dec, 2021). Cloudpanel: What do Instances Mean in Terms of Cloud Computing? [Website]. Available: https://www.cloudpanel.io/blog/what-do-instances-mean-in-terms-of-cloud-computing/
+
+          </tr>
+          </tr>
+          <td>17
+          <td> Behaviour-driven development (BDD) 
+          <td> In DevOps, Behavior Driven Development (BDD) encourages collaboration among developers, quality assurance, and non-technical stakeholders. This approach promotes transparency in the development process and minimizes management risk.
+        
+          <td> Remya Mohanan.(29 September,2022). Spiceworks: What Is BDD (Behavior Driven Development)? Meaning, Process, and Examples. [Website]. Available:https://www.spiceworks.com/tech/devops/articles/what-is-bdd/
+
+          </tr>
+        </tr>
+        <td>18
+           <td> Mean Time to Recovery (MTTR)
+        
+           <td> MTTR is a measurement that calculates the average time it takes for a system to recover from a failure and return to working order. It is an essential gauge for evaluating an organization's capability to keep their systems operational in the event of unplanned outage.
+                      
+           <td> Janani.(16  DEC, 2021 ). Atatus: Mean Time To Recovery (MTTR). [Website]. Available: https://www.atatus.com/glossary/mean-time-to-recovery/
+            </tr>
+            </tr>
+            <td>19
+            <td>Reliability
+        
+           <td> Consistently producing stable and high-quality software products is crucial for ensuring reliability in software delivery. Achieving software resilience requires rigorous testing and various validations, as well as continually learning from failures, monitoring abnormal activity, and responding proactively. 
+                      
+            <td> Claire Peters& DORA Research Team. (2022). The 2022 Accelerate State of DevOps Report. [Online]. Available: [https://dora.dev/#reports]
+        
+            </tr>
+        </tr>
+        <td>20
+        <td> Test-driven design (TDD)
+         <td> Test-driven design is a software development practice that differs from traditional methods. It involves writing unit tests prior to coding, with a focus on code quality and early detection of defects and iteratively refining for code optimization.
+        
+         <td> Jash Unadkat.(14 June, 2023). Browserstack: What is Test Driven Development (TDD)? [Website]. Available: https://www.browserstack.com/guide/what-is-test-driven-development
+        
+         </tr>
+        <tr>
+         <td>21
+         <td> Azure Storage
+          <td>Azure storage is a cloud storage service offered by Microsoft Azure. It is highly scalable and supports a variety of data types. Additionally, it has global data distribution which makes it a dependable storage option for users who are searching for flexibility and reliability.
+          <td>H. Sharma, “Azure Storage Tutorial – Tables, Blobs, Queues & File Storage in Microsoft Azure,” Edureka, Aug. 2023, [Online]. Available: https://www.edureka.co/blog/azure-storage-tutorial/
+        </tr>
+        <tr>
+          <td>22
+          <td>MongoDB
+           <td>MongoDB is an open-source document database that uses the JSON format for data storage. It offers support for drivers in different programming languages and is a versatile, high-performance, and easily scalable solution for storing data in various applications and internet infrastructures.
+           <td>A. S. Gillis and B. Botelho.(Mar,2023). TechTarget :“MongoDB,” Data Management [Online]. Available: https://www.techtarget.com/searchdatamanagement/definition/MongoDB
+         </tr>
+         <tr>
+          <td>23
+          <td>Cluster storage
+           <td>Cluster storage is a system that combines multiple storage nodes to create a reliable and high-performance architecture for scalable storage services. By pooling storage devices, it improves capacity and allows for concurrent data access. Additionally, it has built-in redundancy to ensure fault tolerance and data resilience.
+           <td>Y. Deng, “RISC: A resilient interconnection network for scalable cluster storage systems,” Journal of Systems Architecture, Jan. 2008, doi: 10.1016/j.sysarc.2007.04.002.
+         </tr>
+         <tr>
+          <td>24
+          <td>Service Registry
+           <td>Service Registry is a critical component of cloud service platforms, serving as a database or data service for storing service information. It features capabilities like automatic service discovery, load balancing, and fault tolerance to support efficient service management and operation.
+           <td>L. F. Pires, A. Van Oostrum, and A. B. J. M. Wijnhoven, “Service Registry Design,” International Journal of Information Systems in the Service Sector, Oct. 2010, doi: 10.4018/jisss.2010100101.<br/><br/>
+               Sebastian Peyrott.( 02 October, 2015). Auth0: An Introduction to Microservices, Part 3: The Service Registry [Online]. Available: https://auth0.com/blog/an-introduction-to-microservices-part-3-the-service-registry/
+         </tr>
+         <tr>
+          <td>25
+          <td>Docker Compose Networks
+           <td>A networking feature provided by Docker Compose to define network connections between containers in the Compose file. This feature facilitates communication among Docker containers through service names, ensuring secure interaction between microservices in separate containers and maintaining isolation and security.
+           <td>Alican Akkus. (06 May, 2019). Medium: Docker Compose Network - Medium [Online]. Available: https://medium.com/@caysever/docker-compose-network-b86e424fad82
+         </tr>
+         <tr>
+          <td>26
+          <td>Secret Management
+           <td>Secrets management involves the secure storage and administration of sensitive data like passwords, credentials, and keys to safeguard confidential information. It encompasses the secure and centralized management of secrets throughout their lifecycle, reinforcing security measures within critical layers of a contemporary organization's infrastructure.
+           <td>B. Hoffman.(04 Mar, 2021). Delinea : Secrets management: what is it and why is it important? [Online]. Available: https://delinea.com/blog/secrets-management
+         </tr>
+         <tr>
+          <td>27
+          <td>Container Networking
+           <td>Container Networking refers to the technology and process that enables isolated communication among Docker containers or containerized applications. It encompasses the creation of distinct networks, IP allocation, data routing, and security policies, facilitating effective and secure interaction between containers.
+           <td>I. Velichko.(18 Oct, 2020). Iximiuz : How Container Networking Works: Practical Explanation [Online]. Available: https://iximiuz.com/en/posts/container-networking-is-simple/
+         </tr>
+         <tr>
+          <td>28
+          <td>Stateful microservices 
+           <td>Stateful microservices refer to an architectural approach where individual microservices maintain their own persistent state rather than relying on an external database. Storing session information on the server makes it possible to process requests and interactions more efficiently. This eliminates the need for frequent database calls.
+           <td>Xenonstack. (23 May, 2023). Medium: Stateful and Stateless Microservices Application Solutions [Online]. Available: https://medium.com/digital-transformation-and-platform-engineering/stateful-and-stateless-microservices-application-solutions-f1fa38326f37
+         </tr>
+         <tr>
+          <td>29
+          <td>Load balancing
+           <td>Load balancing is the process of distributing incoming network traffic equally among several backend servers. This helps to improve the performance and availability of applications by sharing the workload across a pool of servers. It ensures that resources are used effectively, enhances user accessibility, and provides an additional layer of network security.
+           <td>Coursera.(Jul, 2023).Coursera: “What Is Load Balancing? [Online]. Available: https://www.coursera.org/articles/load-balancing
+         </tr>
+         <tr>
+          <td>30
+          <td>Replication
+           <td>Replication in Docker creates identical container copies for redundancy and scalability, deploying multiple instances across nodes for load distribution and fault tolerance. This mechanism enhances application reliability and availability by duplicating data and application states among containers.
+           <td>Abbes, H., Louati, T., & Cérin, C. (2020). "Dynamic replication factor model for Linux containers-based cloud systems." The Journal of Supercomputing: An International Journal of High-Performance Computer Design, Analysis, and Use, 76(9), 7219–7241. DOI: 10.1007/s11227-020-03158-5.
+         </tr>
+         <tr>
+          <td>31
+         <td>Azure resource group
+         <td>Azure resource group is a cloud computing platform and a logical container to organize and manage Azure resources. Resource groups aid in efficient resource management through automated deployment and access control policies.
+         <td>Christopher Graham. (23 February, 2023). “Microsoft Azure resource groups: Introduction and best practices,” IBM Blog, Jul. 2023, [Online]. Available: https://www.ibm.com/blog/microsoft-azure-resource-groups-introduction-and-best-practices/
+         </tr>
+         <tr>
+          <td>32
+          <td>Pod
+          <td>Pods are the smallest deployable units of computing in Kubernetes. "Pod" is a collection of one or more containers that share the same resources, including the network namespace and environment variables, enabling them to collaborate to support the deployment and execution of applications.
+           <td> “What is a Kubernetes pod?” [Online].Available: https://www.redhat.com/en/topics/containers/what-is-kubernetes-pod
+         </tr>
+         <tr>
+          <td>33
+          <td>Service Mesh 
+          <td>service mesh is a specialized infrastructure layer that ensures reliable communication and request delivery between services in a microservices architecture. It provides features like service discovery, load balancing, circuit breaking, rate limiting, autoscaling, and monitoring to enhance reliability and security.
+          <td>Kong Inc. “What is Service Mesh? [Online].Available: https://konghq.com/learning-center/service-mesh/what-is-a-service-mesh
+          </tr>
+         <tr>
+          <td>34
+          <td>Autoscaling 
+          <td>Autoscaling is an important feature in Kubernetes, allowing the cluster to automatically increase or decrease the number of nodes based on the needs of services. This helps improve the performance and stability of applications while reducing resource wastage.
+          <td>Islam Md. S. (3 June, 2022). “What is Kubernetes Autoscaling: Things you need to know” [Online]. Available: https://www.linkedin.com/pulse/what-kubernetes-autoscaling-things-you-need-know-md-shoriful-islam?trk=pulse-article_more-articles_related-content-card  
+         </tr>
+         <tr>
+          <td>35
+          <td>Multi-Tenancy 
+          <td>Multi-Tenancy is an architectural approach where one instance of a software application serves multiple customers (tenants), ensuring data isolation and limited access to core code in a shared environment. This model boosts software efficiency, scalability, and cost-effectiveness by allowing multiple users to utilize the same system or program components while maintaining data separation and security.
+          <td>Nikola Gemes. ( Nov 08, 2022). “What is Multi-Tenancy and Why Do You Need a Multi-Tenant Architecture? [Online]. Available: https://hygraph.com/blog/multi-tenancy
+         </tr>
+         <tr>
+          <td>36
+          <td>Vagrant
+          <td>Vagrant is a tool for managing virtual machine lifecycles, providing a uniform environment for cross-platform deployment automation. In Kubernetes, Vagrant can be used to create and manage virtual machines, build development and testing environments, and offer automated deployment and management capabilities. 
+          <td>Swati Tawde. (4 Jul. 2023). “What is Vagrant? [Online]. Available: https://www.educba.com/what-is-vagrant/
+         </tr>
+         <tr>
+          <td>37
+          <td>Function as a Service(FaaS)
+          <td>Function as a Service, abbreviated as FaaS, is a cloud computing service model well-suited for the development of event-driven, serverless applications.It empowers developers to focus on coding individual functions without dealing with the underlying infrastructure's management
+          <td>Matteo Duò. (6 Jun, 2023). “Function as a Service (FaaS): Everything You Need To Know” [Online]. Available: https://kinsta.com/blog/function-as-a-service/   
+         </tr>
+         <tr>
+          <td>38
+          <td>Zero-Downtime Deployment
+          <td>Zero-downtime deployment is a software deployment strategy to minimise service disruptions while releasing new software versions or updates. This is accomplished through the use of various technologies, such as containerisation, blue-green deployments, and load balancing.
+          <td>Y. Koup. (21 Jun , 2022). “What Is Zero Downtime Deployment?” [Online]. Available: https://www.pingidentity.com/en/resources/blog/post/what-is-zero-downtime-deployment.html  
+         </tr>
+         <tr>
+          <td>39
+          <td>Namespace
+          <td>The namespace logically divides resources within the same cluster into isolated groups in Kubernetes. It enhances the flexibility, security and manageability of clusters and is a key tool for organising and managing complex applications and multi-user workloads.
+          <td>Sahid. “Kubernetes Namespace: Everything you need to know, [Online]. Available: https://k21academy.com/docker-kubernetes/kubernetes-namespace/           
+         </tr>
+         <tr>
+          <td>40
+          <td>Role-Based Access Control(RBAC)
+          <td>RBAC is a security mechanism and policy model utilized for regulating and overseeing access to resources within a Kubernetes cluster. By configuring RBAC policies, administrators can enforce the principle of least privilege to ensure that users only have the basic permissions required for their specific tasks.
+          <td>B. Hirschberg.( 2 Aug, 2023). The Complete Guide to Kubernetes RBAC [Online]. Available: https://www.armosec.io/blog/a-guide-for-using-kubernetes-rbac/         
+         </tr>
+         <tr>
+          <td>41
+          <td>DevSecOps
+          <td>DevSecOps is a methodology that integrates development, security, and operations, aiming to incorporate security throughout the entire software development and delivery process. It emphasizes collaboration, automation, and proactive security measures to enhance software delivery security while improving development speed and operational efficiency. This approach emphasises that security should not be seen as a separate issue but rather an integral part of DevOps.
+          <td>M. Robinson, “DevSecOps: A Complete Guide to What, Why, and How - Plutora,” Plutora, MAY 4, 2022. Available: https://www.plutora.com/blog/devsecops-guide.  
+         </tr>
+         <tr>
+          <td>42
+          <td>AIOps 
+          <td>AIOps is a technology that combines big data and machine learning to automate and enhance various aspects of IT operations. It involves the automated analysis of large volumes of data from diverse sources, enabling the detection of incidents, identification of root causes, and the provision of valuable insights for proactive IT management.
+          <td> BigPanda, “What is AIOps? | Definition & Benefits | BigPanda,” BigPanda, Dec. 20, 2022. Available: https://www.bigpanda.io/blog/what-is-aiops/ 
+         </tr>
+         <tr>
+          <td>43
+          <td>End-to-end Testing
+          <td>End-to-end testing aims to verify the dependability of the entire software system by simulating scenarios that closely resemble real user interactions from the user's standpoint, covering both functionality and performance. More specifically, end-to-end testing places a strong emphasis on validating system workflows and expanding the scope of test coverage, with the aim of reducing the risk of system-wide failures caused by issues within individual subsystems.
+          <td>S. Bose, “What is End To End Testing? | BrowserStack,” BrowserStack, Feb. 20, 2023. Available: https://www.browserstack.com/guide/end-to-end-testing.  
+         </tr>
+         <tr>
+          <td>44
+          <td>Shift-Left Testing
+          <td>Shift-Left Testing is a testing methodology that emphasizes early involvement in testing to proactively detect and prevent defects, resulting in reduced testing expenses and enhanced software quality. This approach involves early-stage activities such as static code analysis and unit testing throughout the development process.
+          <td>D. Hamilton, “What Is Shift-Left Testing? - Parasoft,” Parasoft, Dec. 11, 2018. Available: https://www.parasoft.com/blog/what-is-shift-left-testing/
+         </tr>
+         <tr>
+          <td>45
+          <td>Incident Management
+          <td>Incident management is a vital component of IT service management, dedicated to swiftly addressing interruptions in IT services or unforeseen incidents that could degrade service quality. The main goal is to identify issues promptly, document them carefully, resolve them effectively, and restore affected services to their standard operation, thereby minimizing adverse impacts on the business and its users.
+          <td> H. Tandon, “What is IT Incident Management? (Best Practice and Processes) - IFS Blog,” IFS Blog, Sep. 14, 2022. Available: https://blog.ifs.com/2022/09/it-incident-management/
+         </tr>
+         <tr>
+          <td>46
+          <td>Static Application Security Testing (SAST)
+          <td>Static Application Security Testing (SAST) is an automated security testing approach used throughout the software development lifecycle. It relies on static code analysis to identify and assess potential security vulnerabilities and threats, ultimately enhancing the security of applications. By using SAST tools, it is possible to efficiently identify typical security weaknesses.
+          <td>Gabriel Diaz, “Static Application Security Testing (SAST),” www.linkedin.com, [Online]. Available: https://www.linkedin.com/pulse/static-application-security-testing-sast-gabriel-diaz
+         </tr>
+         <tr>
+          <td>47
+          <td>Dynamic Application Security Testing (DAST)
+          <td>DAST is a type of black-box security testing method that is usually carried out after application development. During the test, testers with limited knowledge of the program simulate hacker techniques to uncover potential vulnerabilities that could compromise the application's security. DAST tools send various attack requests to web applications or web services to evaluate and enhance the application's security.
+          <td>A. Dizdar, “What Is Dynamic Application Security Testing (DAST)?,” Bright Security, Mar. 21, 2023. Available: https://brightsec.com/blog/dast-dynamic-application-security-testing/ 
+         </tr>
+         <tr>
+          <td>48
+          <td>Chaos Engineering
+          <td>Chaos Engineering is a structured approach aimed at enhancing system stability and reliability. It involves simulating anomalies such as random failures, network delays, and server outages to assess how a system behaves and responds in such scenarios.
+          <td>G. Parker, “An Introduction to Chaos Engineering,” Saucelabs.com, May 05, 2023. Available: https://saucelabs.com/resources/blog/an-introduction-to-chaos-engineering.   
+         </tr>
+         <tr>
+          <td>49
+          <td>Site Reliability Engineering
+          <td>Site Reliability Engineering is an approach that leverages the principles and practices of software engineering within operations. SRE integrates management and technical measures to achieve the reliability and high availability of online services and the entire IT infrastructure. The responsibilities of SRE teams involve a combination of development tasks usually carried out by software engineers and the operational duties associated with system administrators.
+          <td>M. Arakkal, “What is SRE (Site Reliability Engineering ) and use cases,” Linkedin, Feb. 23, 2023. Available: https://www.linkedin.com/pulse/what-sre-site-reliability-engineering-best-use-cases-mohanlal-arakkal. <br/><br/>
+              PATRICK HILL, “Love DevOps? Wait until you meet SRE | Atlassian,” Atlassian, 2020. Available: https://www.atlassian.com/incident-management/devops/sre#the-devops-incident-management-process. 
+          </tr>
+         <tr>
+          <td>50
+          <td>Load Testing 
+          <td>Load testing is a software testing methodology designed to evaluate the performance and reliability of an application or service when subjected to expected or excessive workloads. During this process, the goal is to uncover design flaws by simulating scenarios where multiple users access the system or execute specific tasks. Load testing is essential not only for optimizing the system's current ability to handle high concurrency and distribute loads but also for informing future capacity planning requirements.
+          <td>N. Cohen, “What Is Performance Testing vs. Load Testing vs. Stress Testing? | BlazeMeter by Perforce,” BlazeMeter, 2022. Available: https://www.blazemeter.com/blog/performance-testing-vs-load-testing-vs-stress-testing.  
+         </tr>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
+
+
